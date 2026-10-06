@@ -1,0 +1,107 @@
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px 16px;
+}
+
+/* Title */
+h1 {
+    max-width: 500px;
+    margin: 0 auto 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Form */
+form {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input, Select and Textarea */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #333;
+    outline-offset: 1px;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+/* Divider */
+hr {
+    max-width: 500px;
+    margin: 30px auto 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* Submitted Information Title */
+h2 {
+    max-width: 500px;
+    margin: 30px auto 10px;
+    color: #333;
+}
+
+/* Display Information */
+#displayInfo {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    line-height: 1.8;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+}
